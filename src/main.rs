@@ -83,7 +83,7 @@ fn delete_directories(paths: Vec<PathBuf>) -> io::Result<()> {
 
 
 fn main() -> io::Result<()> {
-    println!("Node Modules Cleaner");
+    println!("oRganizer");
     let mut path_input: String = String::new();
     println!("Enter the base directory path to search for 'node_modules' (e.g., . for current directory):");
     stdin().read_line(&mut path_input)?;
